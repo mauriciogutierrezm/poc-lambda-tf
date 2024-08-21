@@ -14,6 +14,6 @@ module "lambda" {
   output_file_path = "../../helpers/code.zip"
 
   #Layer config
-  lambda_layer_name = var.lambda_layer_name
+  lambda_layer_name   = var.lambda_layer_name
   layer_zip_file_path = "../../helpers/layer.zip"
 }
