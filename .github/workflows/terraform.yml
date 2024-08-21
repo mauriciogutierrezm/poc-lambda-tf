@@ -16,7 +16,7 @@ jobs:
     environment: Develop
     env:
         AWS_ACCESS_KEY_ID: ${{ secrets.POC_AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.POC_AWS_SECRET_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.POC_AWS_SECRET_ACCESS_KEY }}
         AWS_DEFAULT_REGION: us-east-2
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
